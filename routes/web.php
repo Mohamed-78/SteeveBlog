@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Backend\BlogController;
 use App\Http\Controllers\Frontend\WebSiteController;
 use App\Http\Controllers\Backend\DashboardController;
 
@@ -29,6 +30,7 @@ Route::group([
 ], function () {
     // Route::middleware('auth')->group(function () {
         Route::get('/espace-administration',[DashboardController::class, 'index'])->name('espace_administration');
+        Route::resource('blog', BlogController::class);
     // });
 });
 

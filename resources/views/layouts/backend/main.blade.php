@@ -12,6 +12,9 @@
     <link href="{{asset('backend/assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('backend/assets/css/app.min.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('backend/assets/css/custom.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('backend/assets/libs/quill/quill.core.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('backend/assets/libs/quill/quill.bubble.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('backend/assets/libs/quill/quill.snow.css')}}" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -34,6 +37,22 @@
     <script src="{{asset('backend/assets/libs/swiper/swiper-bundle.min.js')}}"></script>
     <script src="{{asset('backend/assets/js/pages/dashboard-ecommerce.init.js')}}"></script>
     <script src="{{asset('backend/assets/js/app.js')}}"></script>
+    <script src="{{asset('backend/assets/libs/quill/quill.min.js')}}"></script>
+    <script src="{{ asset('backend/assets/libs/@ckeditor/ckeditor5-build-classic/build/ckeditor.js') }}"></script>
+
+    <script>
+        ClassicEditor
+            .create(document.querySelector('#editor'))
+            .then(editor => {
+                console.log(editor);
+            })
+            .catch(error => {
+                console.log(error);
+            })
+
+    </script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/40.2.0/classic/ckeditor.js"></script>
+
 </body>
 
 </html>

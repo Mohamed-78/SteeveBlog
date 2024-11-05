@@ -414,7 +414,7 @@
                     <div class="collapse menu-dropdown" id="sidebarAuth">
                         <ul class="nav nav-sm flex-column">
                             <li class="nav-item">
-                                <a href="apps-calendar.html" class="nav-link" data-key="t-calendar">
+                                <a href="{{route('blog.index')}}" class="nav-link" data-key="t-calendar">
                                     Nouveau blog
                                 </a>
                             </li>
