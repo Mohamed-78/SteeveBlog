@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\WebSiteController;
+use App\Http\Controllers\Backend\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +23,12 @@ Route::get('/podcast',[WebSiteController::class, 'podcast'])->name('podcast');
 Route::get('/contact',[WebSiteController::class, 'contact'])->name('contact');
 Route::get('/blog/details',[WebSiteController::class, 'detailsBlog'])->name('details_blog');
 Route::get('/services/developpement_de_produit_et_mvp',[WebSiteController::class, 'firstService'])->name('first_service');
+
+Route::group([
+    'prefix' => 'dashboard',
+], function () {
+    // Route::middleware('auth')->group(function () {
+        Route::get('/espace-administration',[DashboardController::class, 'index'])->name('espace_administration');
+    // });
+});
+
