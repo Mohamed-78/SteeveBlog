@@ -414,12 +414,12 @@
                     <div class="collapse menu-dropdown" id="sidebarAuth">
                         <ul class="nav nav-sm flex-column">
                             <li class="nav-item">
-                                <a href="{{route('blog.index')}}" class="nav-link" data-key="t-calendar">
+                                <a href="{{route('blog.create')}}" class="nav-link" data-key="t-calendar">
                                     Nouveau blog
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="apps-chat.html" class="nav-link" data-key="t-chat">
+                                <a href="{{route('blog.index')}}" class="nav-link" data-key="t-chat">
                                     Liste des blog
                                 </a>
                             </li>

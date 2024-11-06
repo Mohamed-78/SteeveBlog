@@ -38,7 +38,8 @@
     <script src="{{asset('backend/assets/js/pages/dashboard-ecommerce.init.js')}}"></script>
     <script src="{{asset('backend/assets/js/app.js')}}"></script>
     <script src="{{asset('backend/assets/libs/quill/quill.min.js')}}"></script>
-    <script src="{{ asset('backend/assets/libs/@ckeditor/ckeditor5-build-classic/build/ckeditor.js') }}"></script>
+    <script src="{{asset('backend/assets/libs/@ckeditor/ckeditor5-build-classic/build/ckeditor.js') }}"></script>
+    <script src="{{asset('backend/assets/js/pages/ecommerce-product-list.init.js')}}"></script>
 
     <script>
         ClassicEditor
