@@ -15,7 +15,7 @@
                     <img src="{{asset('assets/img/social-icon-3.png')}}" alt="Social Media Icon">
                 </span>
                 <span class="circle-4">
-                    <img src="{{asset('assets/img/social-icon-4.png')}} alt="Social Media Icon">
+                    <img src="{{asset('assets/img/social-icon-4.png')}}" alt="Social Media Icon">
                 </span>
             </div>
         </div>
@@ -31,7 +31,7 @@
                         </div>
                         <div class="jo-blog-details-txt">
                             <div class="jo-inner-blog-infos">
-                                <div class="author">Written by: <span class="name">Marry biden</span></div>
+                                <div class="author">Auteur: <span class="name">Marry biden</span></div>
                                 <div class="date">14/03/2024</div>
                             </div>
                             <h3 class="jo-inner-blog-title"><a href="#">Life won's one Beast air Over above all</a></h3>
@@ -72,7 +72,7 @@
                             </div>
 
                             <div class="share">
-                                <h4 class="title">Share:</h4>
+                                <h4 class="title">Partager:</h4>
                                 <div class="share-options">
                                     <a href="#"><i class="flaticon-facebook-1"></i></a>
                                     <a href="#"><i class="flaticon-twitter"></i></a>
@@ -83,12 +83,12 @@
                         </div>
 
                         <div class="jo-blog-comments">
-                            <h4 class="jo-blog-comments-title">02 Comments</h4>
+                            <h4 class="jo-blog-comments-title">02 Commentaires</h4>
 
                             <div class="comments">
                                 <div class="jo-blog-comment">
                                     <div class="jo-blog-comment-user-img">
-                                        <img src="{{asset('assets/img/user-5.png')}}" alt="commenter Image">
+                                        <img src="{{asset('assets/img/profil.png')}}" alt="commenter Image">
                                     </div>
                                     <div class="jo-blog-comment-txt">
                                         <div class="heading">
@@ -96,12 +96,12 @@
                                             <span class="date">March 20, 2023 at 2:37 pm</span>
                                         </div>
                                         <p class="descr">Neque porro est qui dolorem ipsum quia quaed inventor veritatis et quasi architecto var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy</p>
-                                        <button class="reply-btn">Reply</button>
+                                        {{-- <button class="reply-btn">Reply</button> --}}
                                     </div>
                                 </div>
                                 <div class="jo-blog-comment">
                                     <div class="jo-blog-comment-user-img">
-                                        <img src="{{asset('assets/img/user-6.png')}}" alt="commenter Image">
+                                        <img src="{{asset('assets/img/profil.png')}}" alt="commenter Image">
                                     </div>
                                     <div class="jo-blog-comment-txt">
                                         <div class="heading">
@@ -109,31 +109,31 @@
                                             <span class="date">March 20, 2023 at 2:37 pm</span>
                                         </div>
                                         <p class="descr">Neque porro est qui dolorem ipsum quia quaed inventor veritatis et quasi architecto var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy</p>
-                                        <button class="reply-btn">Reply</button>
+                                        {{-- <button class="reply-btn">Reply</button> --}}
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="jo-blog-comment-form-wrapper">
-                            <h3 class="jo-blog-comment-form-title">Leave a Comment</h3>
+                            <h3 class="jo-blog-comment-form-title">Laissez un commentaire</h3>
 
                             <form action="#" class="jo-blog-comment-form">
                                 <div class="row g-4 row-cols-sm-2">
                                     <div>
-                                        <label for="jo-blog-comment-name">Your Name*</label>
-                                        <input type="text" name="name" id="jo-blog-comment-name" placeholder="Your Name">
+                                        <label for="jo-blog-comment-name">Votre nom*</label>
+                                        <input type="text" name="name" id="jo-blog-comment-name" placeholder="Votre nom">
                                     </div>
                                     <div>
-                                        <label for="jo-blog-comment-email">Your Email*</label>
-                                        <input type="email" name="email" id="jo-blog-comment-email" placeholder="Your Email">
+                                        <label for="jo-blog-comment-email">Votre email*</label>
+                                        <input type="email" name="email" id="jo-blog-comment-email" placeholder="Votre email">
                                     </div>
                                     <div class="col-sm-12 col-12">
-                                        <label for="jo-blog-comment-comment">Write Comment*</label>
-                                        <textarea name="comment" id="jo-blog-comment-comment" placeholder="Write Comment"></textarea>
+                                        <label for="jo-blog-comment-comment">Commentaire*</label>
+                                        <textarea name="comment" id="jo-blog-comment-comment" placeholder="Ecrivez votre commentaire"></textarea>
                                     </div>
                                 </div>
-                                <button type="submit" class="jo-comment-form-submit-btn">Post Comment <i class="flaticon-arrow-right-1"></i></button>
+                                <button type="submit" class="jo-comment-form-submit-btn">Poster<i class="flaticon-arrow-right-1"></i></button>
                             </form>
                         </div>
                     </div>
@@ -141,29 +141,21 @@
 
                 <div class="col-lg-4">
                     <div class="jo-inner-blogs-sidebar">
-                        <div class="jo-inner-blogs-sidebar-widget">
-                            <h2 class="jo-inner-blogs-sidebar-widget-title">Search</h2>
-
-                            <form action="#" class="jo-inner-blogs-search-form">
-                                <input type="search" name="search" id="wm-search" placeholder="Search Here">
-                                <button type="submit" title="Search Form Button"><i class="flaticon-search"></i></button>
-                            </form>
-                        </div>
 
                         <div class="jo-inner-blogs-sidebar-widget">
                             <h2 class="jo-inner-blogs-sidebar-widget-title">Categories</h2>
 
                             <div class="jo-inner-blogs-categories">
-                                <a href="blog.html">Product Presentation <span>(08)</span></a>
-                                <a href="blog.html">Dedicated Video Call <span>(11)</span></a>
-                                <a href="blog.html">Trending Challenge <span>(18)</span></a>
-                                <a href="blog.html">Dance Awarness <span>(11)</span></a>
-                                <a href="blog.html">Photography <span>(07)</span></a>
+                                <a href="#">Product Presentation <span>(08)</span></a>
+                                <a href="#">Dedicated Video Call <span>(11)</span></a>
+                                <a href="#">Trending Challenge <span>(18)</span></a>
+                                <a href="#">Dance Awarness <span>(11)</span></a>
+                                <a href="#">Photography <span>(07)</span></a>
                             </div>
                         </div>
 
                         <div class="jo-inner-blogs-sidebar-widget">
-                            <h2 class="jo-inner-blogs-sidebar-widget-title">Popular Posts</h2>
+                            <h2 class="jo-inner-blogs-sidebar-widget-title">Articles similaires</h2>
 
                             <div class="jo-inner-blogs-sidebar-posts">
                                 <div class="jo-inner-blogs-sidebar-post">
@@ -177,7 +169,9 @@
                                             <span>14/03/2024</span>
                                         </span>
 
-                                        <h3 class="title"><a href="blog-details.html">How to get the first 100 customers for your business</a></h3>
+                                        <h3 class="title">
+                                            <a href="#">How to get the first 100 customers for your business</a>
+                                        </h3>
                                     </div>
                                 </div>
 
@@ -192,7 +186,9 @@
                                             <span>14/03/2024</span>
                                         </span>
 
-                                        <h3 class="title"><a href="blog-details.html">How to get the first 100 customers for your business</a></h3>
+                                        <h3 class="title">
+                                            <a href="#">How to get the first 100 customers for your business</a>
+                                        </h3>
                                     </div>
                                 </div>
 
@@ -207,7 +203,9 @@
                                             <span>14/03/2024</span>
                                         </span>
 
-                                        <h3 class="title"><a href="blog-details.html">How to get the first 100 customers for your business</a></h3>
+                                        <h3 class="title">
+                                            <a href="#">How to get the first 100 customers for your business</a>
+                                        </h3>
                                     </div>
                                 </div>
                             </div>
@@ -217,13 +215,13 @@
                             <h2 class="jo-inner-blogs-sidebar-widget-title">Tags</h2>
 
                             <div class="jo-inner-blogs-tags">
-                                <a href="blog.html">Marketing</a>
-                                <a href="blog.html">Agency</a>
-                                <a href="blog.html">Search Engine</a>
-                                <a href="blog.html">Tech</a>
-                                <a href="blog.html">Influencer</a>
-                                <a href="blog.html">Advertising</a>
-                                <a href="blog.html">Branding</a>
+                                <a href="#">Marketing</a>
+                                <a href="#">Agency</a>
+                                <a href="#">Search Engine</a>
+                                <a href="#">Tech</a>
+                                <a href="#">Influencer</a>
+                                <a href="#">Advertising</a>
+                                <a href="#">Branding</a>
                             </div>
                         </div>
                     </div>

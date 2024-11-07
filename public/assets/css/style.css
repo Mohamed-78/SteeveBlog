@@ -628,7 +628,7 @@ input {
 
 .tt-channel-content-pagination .pages a:hover,
 .tt-channel-content-pagination .pages a.active {
-    background-color: var(--ttRed);
+    background-color: #FF6600;
     color: var(--white);
 }
 
@@ -5210,7 +5210,7 @@ input {
 
 .jo-inner-contact-form .submit-btn {
     height: clamp(45px, 3.15vw, 60px);
-    background-color: var(--ttRed);
+    background-color: #FF6600;
     border-radius: 8px;
     width: 100%;
     color: var(--white);
@@ -5446,11 +5446,11 @@ input {
     height: 30px;
     font-size: 14px;
     padding: 0 16px;
-    color: var(--ttRed);
+    color: #FF6600;
 }
 
 .jo-blog-comment-txt .reply-btn:hover {
-    background-color: var(--ttRed);
+    background-color: #FF6600;
     color: var(--white);
 }
 

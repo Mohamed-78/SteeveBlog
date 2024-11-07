@@ -190,8 +190,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-5 col-4">
                         <div class="jo-intro__img">
-                            <a href="https://youtu.be/vc3WCrgYpF0?si=W2iFDfdDYsh6spKg" data-fslightbox class="play-btn"><i class="flaticon-play"></i></a>
-                            <img src="{{asset('assets/img/intro-img.jpg')}}" alt="intro image">
+                            <img src="{{asset('assets/img/bg-competence.jpg')}}" alt="intro image">
                         </div>
                     </div>
                 </div>

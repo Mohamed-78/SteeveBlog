@@ -26,7 +26,7 @@
                             </div>
                             <div class="jo-banner__btns">
                                 <a href="#" class="jo-btn">Découvrir mes services</a>
-                                <a href="#" class="jo-btn">Formations</a>
+                                <a href="{{route('formation')}}" class="jo-btn">Formations</a>
                             </div>
                         </div>
                     </div>
@@ -142,7 +142,7 @@
                                 </p>
 
                                 <div>
-                                    <a href="blog-details.html" class="jo-article__btn">
+                                    <a href="{{route('about')}}" class="jo-article__btn">
                                         Lire plus
                                         <span class="icon">
                                             <i class="flaticon-arrow-right-1"></i>
@@ -161,7 +161,6 @@
                 <div class="jo-services-wrapper">
                     <div class="heading">
                         <h2 class="jo-section-title mb-0">Mes services</h2>
-                        <a href="#" class="jo-btn">Voir plus</a>
                     </div>
 
                     <div class="jo-services-tabs-wrapper">
@@ -208,7 +207,7 @@
                                             Donec eget fermentum libero, ac aliquet lectus.
                                         </p>
                                         <div style="display:flex;justify-content:end;">
-                                            <a href="blog-details.html" class="jo-article__btn">
+                                            <a href="#" class="jo-article__btn">
                                                 En savoir plus
                                                 <span class="icon">
                                                     <i class="flaticon-arrow-right-1"></i>
@@ -245,7 +244,7 @@
                                             Donec eget fermentum libero, ac aliquet lectus.
                                         </p>
                                         <div style="display:flex;justify-content:end;">
-                                            <a href="blog-details.html" class="jo-article__btn">
+                                            <a href="#" class="jo-article__btn">
                                                 En savoir plus
                                                 <span class="icon">
                                                     <i class="flaticon-arrow-right-1"></i>
@@ -282,7 +281,7 @@
                                             Donec eget fermentum libero, ac aliquet lectus.
                                         </p>
                                         <div style="display:flex;justify-content:end;">
-                                            <a href="blog-details.html" class="jo-article__btn">
+                                            <a href="#" class="jo-article__btn">
                                                 En savoir plus
                                                 <span class="icon">
                                                     <i class="flaticon-arrow-right-1"></i>
@@ -319,7 +318,7 @@
                                             Donec eget fermentum libero, ac aliquet lectus.
                                         </p>
                                         <div style="display:flex;justify-content:end;">
-                                            <a href="blog-details.html" class="jo-article__btn">
+                                            <a href="#" class="jo-article__btn">
                                                 En savoir plus
                                                 <span class="icon">
                                                     <i class="flaticon-arrow-right-1"></i>
@@ -444,9 +443,13 @@
                                     </div>
                                 </div>
 
-                                <h4 class="jo-article__title"><a href="blog-details.html">Les dernieres MAJ sur ChatGPT</a></h4>
+                                <h4 class="jo-article__title">
+                                    <a href="{{route('details_blog')}}">Les dernieres MAJ sur ChatGPT</a>
+                                </h4>
 
-                                <a href="blog-details.html" class="jo-article__btn">Lire plus <span class="icon"><i class="flaticon-arrow-right-1"></i></span></a>
+                                <a href="{{route('details_blog')}}" class="jo-article__btn">Lire plus <span class="icon">
+                                    <i class="flaticon-arrow-right-1"></i></span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -475,9 +478,11 @@
                                     </div>
                                 </div>
 
-                                <h4 class="jo-article__title"><a href="blog-details.html">Importance des outils de gestion...</a></h4>
+                                <h4 class="jo-article__title">
+                                    <a href="#">Importance des outils de gestion...</a>
+                                </h4>
 
-                                <a href="blog-details.html" class="jo-article__btn">Lire plus <span class="icon"><i class="flaticon-arrow-right-1"></i></span></a>
+                                <a href="#" class="jo-article__btn">Lire plus <span class="icon"><i class="flaticon-arrow-right-1"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -505,9 +510,9 @@
                                     </div>
                                 </div>
 
-                                <h4 class="jo-article__title"><a href="blog-details.html">Les dernieres prouesse d'Elon Musk</a></h4>
+                                <h4 class="jo-article__title"><a href="#">Les dernieres prouesse d'Elon Musk</a></h4>
 
-                                <a href="blog-details.html" class="jo-article__btn">Lire plus <span class="icon"><i class="flaticon-arrow-right-1"></i></span></a>
+                                <a href="#" class="jo-article__btn">Lire plus <span class="icon"><i class="flaticon-arrow-right-1"></i></span></a>
                             </div>
                         </div>
                     </div>

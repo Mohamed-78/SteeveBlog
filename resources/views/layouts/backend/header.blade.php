@@ -3,7 +3,7 @@
         <div class="navbar-header">
             <div class="d-flex">
                 <div class="navbar-brand-box horizontal-logo">
-                    <a href="index.html" class="logo logo-dark">
+                    <a href="{{route('espace_administration')}}" class="logo logo-dark">
                         <span class="logo-sm">
                             <img src="{{ asset('assets/img/logo.png') }}" alt="" height="22">
                         </span>
@@ -12,7 +12,7 @@
                         </span>
                     </a>
 
-                    <a href="index.html" class="logo logo-light">
+                    <a href="{{route('espace_administration')}}" class="logo logo-light">
                         <span class="logo-sm">
                             <img src="{{ asset('assets/img/logo.png') }}" alt="" height="22">
                         </span>
@@ -367,8 +367,7 @@
 </header>
 <div class="app-menu navbar-menu">
     <div class="navbar-brand-box">
-        <!--Logo noir-->
-        <a href="index.html" class="logo logo-dark">
+        <a href="{{route('espace_administration')}}" class="logo logo-dark">
             <span class="logo-sm">
                 <img src="{{ asset('assets/img/logo.png') }}" alt="" height="22">
             </span>
@@ -376,8 +375,8 @@
                 <img src="{{ asset('assets/img/logo.png') }}" alt="" height="30">
             </span>
         </a>
-        <!--Logo blanc-->
-        <a href="index.html" class="logo logo-light">
+
+        <a href="{{route('espace_administration')}}" class="logo logo-light">
             <span class="logo-sm">
                 <img src="{{ asset('assets/img/logo.png') }}" alt="" height="22">
             </span>
@@ -399,7 +398,7 @@
             <ul class="navbar-nav" id="navbar-nav">
                 <li class="menu-title"><span data-key="t-menu">Menu</span></li>
                 <li class="nav-item">
-                    <a class="nav-link menu-link" href="#">
+                    <a class="nav-link menu-link" href="{{route('espace_administration')}}">
                         <span data-key="t-dashboards">Dashboard</span>
                     </a>
                 </li>
@@ -437,7 +436,7 @@
                     <div class="collapse menu-dropdown" id="sidebarCommentaire">
                         <ul class="nav nav-sm flex-column">
                             <li class="nav-item">
-                                <a href="apps-calendar.html" class="nav-link" data-key="t-calendar">
+                                <a href="{{route('moderation')}}" class="nav-link" data-key="t-calendar">
                                     Modération
                                 </a>
                             </li>
@@ -481,10 +480,10 @@
                     <div class="collapse menu-dropdown" id="sidebarPages">
                         <ul class="nav nav-sm flex-column">
                             <li class="nav-item">
-                                <a href="pages-starter.html" class="nav-link" data-key="t-starter">
+                                <a href="{{route('formation.create')}}" class="nav-link" data-key="t-starter">
                                     Ajouter une formation
                                 </a>
-                                <a href="pages-starter.html" class="nav-link" data-key="t-starter">
+                                <a href="{{route('formation.index')}}" class="nav-link" data-key="t-starter">
                                     Liste des formations
                                 </a>
                             </li>
@@ -500,12 +499,12 @@
                     <div class="collapse menu-dropdown" id="sidebarLanding">
                         <ul class="nav nav-sm flex-column">
                             <li class="nav-item">
-                                <a href="landing.html" class="nav-link" data-key="t-one-page">
+                                <a href="{{route('podcasts.create')}}" class="nav-link" data-key="t-one-page">
                                     Ajouter un podcast
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="nft-landing.html" class="nav-link" data-key="t-nft-landing">
+                                <a href="{{route('podcasts.index')}}" class="nav-link" data-key="t-nft-landing">
                                     Liste des podcasts
                                 </a>
                             </li>

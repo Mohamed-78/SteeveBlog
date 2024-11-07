@@ -97,11 +97,10 @@
                                                                                     </div>
                                                                                 </th>
 
-                                                                                <th class="sort" data-sort="customer_name">Customer</th>
-                                                                                <th class="sort" data-sort="email">Email</th>
-                                                                                <th class="sort" data-sort="phone">Phone</th>
-                                                                                <th class="sort" data-sort="date">Joining Date</th>
-                                                                                <th class="sort" data-sort="status">Status</th>
+                                                                                <th class="sort" data-sort="customer_name">Titre</th>
+                                                                                <th class="sort" data-sort="email">Auteur</th>
+                                                                                <th class="sort" data-sort="phone">Etat</th>
+                                                                                <th class="sort" data-sort="date">Date de publication</th>
                                                                                 <th class="sort" data-sort="action">Action</th>
                                                                             </tr>
                                                                         </thead>
@@ -117,8 +116,6 @@
                                                                                 <td class="email">marycousar@velzon.com</td>
                                                                                 <td class="phone">580-464-4694</td>
                                                                                 <td class="date">06 Apr, 2021</td>
-                                                                                <td class="status"><span class="badge badge-soft-success text-uppercase">Active</span>
-                                                                                </td>
                                                                                 <td>
                                                                                     <ul class="list-inline hstack gap-2 mb-0">
                                                                                         <li class="list-inline-item edit" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Edit">

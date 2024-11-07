@@ -2,19 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Backend\BlogController;
+use App\Http\Controllers\Backend\PodcastController;
 use App\Http\Controllers\Frontend\WebSiteController;
 use App\Http\Controllers\Backend\DashboardController;
+use App\Http\Controllers\Backend\FormationController;
+use App\Http\Controllers\Backend\ModerationCommentaireController;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
 Route::get('/',[WebSiteController::class, 'index'])->name('index');
 Route::get('/apropos',[WebSiteController::class, 'about'])->name('about');
@@ -31,6 +24,10 @@ Route::group([
     // Route::middleware('auth')->group(function () {
         Route::get('/espace-administration',[DashboardController::class, 'index'])->name('espace_administration');
         Route::resource('blog', BlogController::class);
+        Route::resource('formation', FormationController::class);
+        Route::resource('podcasts', PodcastController::class);
+        Route::get('/moderation',[ModerationCommentaireController::class, 'moderation'])->name('moderation');
+        Route::get('/reponse-commentaire',[ModerationCommentaireController::class, 'reponseCommentaire'])->name('reponse-commentaire');
     // });
 });
 

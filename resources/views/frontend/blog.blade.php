@@ -30,7 +30,7 @@
                             <img src="assets/img/blog-1.jpg" alt="">
                         </div>
                         <div class="jo-inner-blog-infos">
-                            <div class="author">Written by: <span class="name">Marry biden</span></div>
+                            <div class="author">Auteur : <span class="name">Marry biden</span></div>
                             <div class="date">14/03/2024</div>
                         </div>
                         <h3 class="jo-inner-blog-title">
@@ -51,7 +51,7 @@
                             <img src="assets/img/blog-2.jpg" alt="">
                         </div>
                         <div class="jo-inner-blog-infos">
-                            <div class="author">Written by: <span class="name">Marry biden</span></div>
+                            <div class="author">Auteur : <span class="name">Marry biden</span></div>
                             <div class="date">14/03/2024</div>
                         </div>
                         <h3 class="jo-inner-blog-title"><a href="blog-details.html">Life won’s one Beast air Over above all</a></h3>
@@ -68,7 +68,7 @@
                             <img src="assets/img/blog-3.jpg" alt="">
                         </div>
                         <div class="jo-inner-blog-infos">
-                            <div class="author">Written by: <span class="name">Marry biden</span></div>
+                            <div class="author">Auteur : <span class="name">Marry biden</span></div>
                             <div class="date">14/03/2024</div>
                         </div>
                         <h3 class="jo-inner-blog-title"><a href="blog-details.html">Life won’s one Beast air Over above all</a></h3>
@@ -85,7 +85,7 @@
                             <img src="assets/img/blog-4.jpg" alt="">
                         </div>
                         <div class="jo-inner-blog-infos">
-                            <div class="author">Written by: <span class="name">Marry biden</span></div>
+                            <div class="author">Auteur : <span class="name">Marry biden</span></div>
                             <div class="date">14/03/2024</div>
                         </div>
                         <h3 class="jo-inner-blog-title"><a href="blog-details.html">Life won’s one Beast air Over above all</a></h3>
